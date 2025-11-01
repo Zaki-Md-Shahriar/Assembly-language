@@ -28,35 +28,6 @@ MAIN PROC
     MOV DL, BL
     INT 21h
 
-    ;PRINT A NEW LINE 
-    MOV AH,2
-    MOV DL, 0AH
-    INT 21h
-    MOV DL, 0AH
-    INT 21h
-
-    MOV AH, 2
-    MOV DL, BL
-    INT 21h
-
-    ;PRINT A NEW LINE 
-    MOV AH,2
-    MOV DL, 0AH
-    INT 21h
-    MOV DL, 0AH
-    INT 21h
-
-    MOV AH, 2
-    MOV DL, BL
-    INT 21h
-
-    ;PRINT A NEW LINE 
-    MOV AH,2
-    MOV DL, 0AH
-    INT 21h
-    MOV DL, 0AH
-    INT 21h
-
     MOV AH, 4Ch
     INT 21h
 MAIN ENDP
